@@ -16,5 +16,7 @@
 //= require chosen-jquery
 //= require jquery.image-select
 //= require messages
+//= require zxcvbn
+//= require global
 //= require turbolinks
 //= require_tree .

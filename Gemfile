@@ -12,6 +12,7 @@ gem "mailboxer"
 gem 'gravatar_image_tag'
 gem 'chosen-rails'
 gem 'jquery-turbolinks'
+gem 'devise_zxcvbn'
 group :production do
   gem 'pg'
   gem 'rails_12factor'

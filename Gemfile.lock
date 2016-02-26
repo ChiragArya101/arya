@@ -93,6 +93,9 @@ GEM
       responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    devise_zxcvbn (1.1.1)
+      devise
+      zxcvbn-ruby (>= 0.0.2)
     erubis (2.7.0)
     execjs (2.6.0)
     ffi (1.9.10)
@@ -228,6 +231,7 @@ GEM
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
     will_paginate (3.1.0)
+    zxcvbn-ruby (0.1.0)
 
 PLATFORMS
   ruby
@@ -239,6 +243,7 @@ DEPENDENCIES
   chosen-rails
   coffee-rails (~> 4.1.0)
   devise
+  devise_zxcvbn
   gravatar_image_tag
   haml
   haml-rails
